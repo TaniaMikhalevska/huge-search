@@ -1,0 +1,139 @@
+*;
+*:before, *:after {
+    box-sizing: border-box;}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-color: #c2c2c2;
+    --main-font: Arial, sans-serif;
+}
+body { 
+    box-sizing: border-box;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background: #F1F1F1;
+}
+
+.huge-search-header {
+    box-sizing: border-box;
+    width: 70%;
+    height: 30%;
+    margin: 0 auto 0 auto;
+    background: #F1F1F1;
+}
+.huge-search-header-searchform {
+    padding-top: 6%;
+}
+.huge-search-header [type="text"] {
+    font-size: 150px;
+    font-weight: 700;
+    width: 80%;
+    outline: 0;
+    background: #F1F1F1;
+    color: var(--main-color);
+    border: 0;
+}
+.huge-search-header-searchform [type="submit"] {
+    background: #F1F1F1;
+    background: url(../images/img/magnifier.svg);
+    background-repeat: no-repeat;
+    width: 20%;
+    height:70%;
+    outline: 0;
+    border: 0;
+}
+
+.huge-search-section {
+    width: 70%;
+    margin: 0 auto 0 auto;
+    height: 70%;
+    background: #F1F1F1;
+}
+.huge-search-section-articlelist {
+    display: block;
+    width: 100%;
+    font-size: 0;
+   
+}
+.huge-search-section-articlelistitem {
+    display: inline-block;
+    width: 35%;
+    font-size: 20px;
+}
+.huge-search-section-articlelistitem:last-of-type {
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    font-size: 20px;
+    vertical-align: top;
+    margin-right: 0;
+}
+.huge-search-article {
+    width: 86%; 
+    margin-right: 14%;
+}
+.huge-search-article-recent {
+    width:100%;
+    margin: 0;
+}
+
+.huge-search-section-articlelistitem ul {
+    display: block;
+    width: 100%;
+    font-size: 0;
+    list-style: none;
+   
+}
+
+.huge-search-section-articlelistitem li {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 20px;
+    background: rgba(118,117,128,0.05);
+    border-radius: 5px;
+    margin-bottom: 1.5%;
+    
+}
+.huge-search-section-articlelistitem li:first-of-type {     background: #F1F1F1;}
+
+.huge-search-section-articlelistitem  li h2 {
+    font-size: 16px; 
+    font-weight: 750;
+    color: var(--main-color);
+    font-family: var(--main-font);
+    background: #F1F1F1;
+    
+}
+.huge-search-section-articlelistitem  li a {
+    display: table;
+    width: 100%;
+    height: 100%;
+    line-height: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--main-color);
+    font-family: var(--main-font);
+    text-decoration: none;
+    padding: 5% 0 5% 5%;
+    transition: all .1s ease-in;
+    
+}
+.huge-search-section-articlelistitem  li a:hover {
+    background: rgba(118,117,128,0.1);
+    color:#ec5a62;
+} 
+.huge-search-section-articlelistitem  li a img {
+    border-radius: 50%;
+}
+.huge-search-section-articlelistitem  li a span {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    width: 77%;
+}
