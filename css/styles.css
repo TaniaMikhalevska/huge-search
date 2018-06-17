@@ -32,20 +32,26 @@ body {
 .huge-search-header [type="text"] {
     font-size: 150px;
     font-weight: 700;
-    width: 80%;
+    width: 92%;
     outline: 0;
     background: #F1F1F1;
     color: var(--main-color);
     border: 0;
+    transition: all .1s ease-in;
 }
-.huge-search-header-searchform [type="submit"] {
-    background: #F1F1F1;
-    background: url(../images/img/magnifier.svg);
-    background-repeat: no-repeat;
-    width: 20%;
-    height:70%;
+.huge-search-searchfield::placeholder  {
+   --main-color: #c2c2c2;
+    transition: all .1s ease-in;
+}
+.huge-search-searchfield:hover::placeholder  {
+    color:#ec5a62;
+}
+button {
+    width: 7%;
     outline: 0;
     border: 0;
+    background: none;
+
 }
 
 .huge-search-section {
