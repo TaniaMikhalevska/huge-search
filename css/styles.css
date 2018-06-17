@@ -22,12 +22,12 @@ body {
 .huge-search-header {
     box-sizing: border-box;
     width: 70%;
-    height: 30%;
+    height: 25%;
     margin: 0 auto 0 auto;
     background: #F1F1F1;
 }
 .huge-search-header-searchform {
-    padding-top: 6%;
+    padding-top: 1%;
 }
 .huge-search-header [type="text"] {
     font-size: 150px;
@@ -46,7 +46,7 @@ body {
 .huge-search-searchfield:hover::placeholder  {
     color:#ec5a62;
 }
-button {
+.huge-search-button {
     width: 7%;
     outline: 0;
     border: 0;
@@ -57,7 +57,7 @@ button {
 .huge-search-section {
     width: 70%;
     margin: 0 auto 0 auto;
-    height: 70%;
+    height: 75%;
     background: #F1F1F1;
 }
 .huge-search-section-articlelist {
