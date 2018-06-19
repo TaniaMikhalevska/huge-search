@@ -134,7 +134,7 @@ body {
     background: rgba(118,117,128,0.1);
     color:#ec5a62;
 } 
-.huge-search-section-articlelistitem  li a img {
+.huge-search-article-img__people {
     border-radius: 50%;
 }
 .huge-search-section-articlelistitem  li a span {
